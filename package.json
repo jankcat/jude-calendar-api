@@ -1,0 +1,26 @@
+{
+  "name": "jude-calendar-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node --experimental-modules index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jankcat/jude-calendar-api.git"
+  },
+  "keywords": [
+    "calendar"
+  ],
+  "author": "Tim Watkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jankcat/jude-calendar-api/issues"
+  },
+  "homepage": "https://github.com/jankcat/jude-calendar-api#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "googleapis": "^35.0.0"
+  }
+}
