@@ -34,7 +34,7 @@ const getDateString = (date) => {
 
 const getGoogleDateString = (date) => {
   return `${getDateString(date)}T00:00:00Z`;
-}
+};
 
 const getEvents = async (calendar, calId) => {
   const today = new Date();
