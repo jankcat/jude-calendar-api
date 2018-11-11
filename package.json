@@ -2,9 +2,13 @@
   "name": "jude-calendar-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.mjs",
+  "main": "index.js",
   "scripts": {
-    "start": "node --experimental-modules index.mjs"
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +24,13 @@
   },
   "homepage": "https://github.com/jankcat/jude-calendar-api#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
+    "firebase-admin": "^6.1.0",
+    "firebase-functions": "^2.1.0",
     "googleapis": "^35.0.0"
+  },
+  "engines": {
+    "node": "8"
   }
 }
